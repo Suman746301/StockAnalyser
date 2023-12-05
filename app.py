@@ -16,7 +16,7 @@ from sklearn.svm import SVR
 app = dash.Dash(__name__, external_stylesheets=['assets\styles.css'])
 server = app.server
 
-# Define the layout components
+# Defined the layout components required
 
 # Navigation component
 item1 = html.Div(
