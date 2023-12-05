@@ -8,7 +8,7 @@ def prediction(stock, n_days):
     from datetime import date, timedelta
     import plotly.graph_objs as go
 
-    # Load the data
+    # Load the data from the which is available online
     df = yf.download(stock, period='60d')
     df.reset_index(inplace=True)
     df['Day'] = df.index
